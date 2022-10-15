@@ -1,0 +1,225 @@
+.d-inlineBlock {
+    display: inline-block;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logo {
+    color: #fa6980;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    vertical-align: middle;
+}
+
+.header-buttons {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #343638;
+    transition-duration: 0.1s;
+    opacity: 0.5;
+    vertical-align: middle;
+}
+
+.header-buttons:hover {
+    color: black;
+    opacity: 1;
+}
+
+.header-home {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.header-li {
+    display: inline-block;
+    margin-left: 26px;
+}
+
+.christopherImg {
+    vertical-align: middle;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.trending {
+    margin-top: 25px;
+}
+
+.trending-title {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #202124;
+    margin-bottom: 40px;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    width: 360px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card:not(:first-child) {
+    margin-left: 40px;
+} 
+
+.card-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-text {
+    margin: 76px 40px 10px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #a6adb4;
+    line-height: 1.5;
+}
+
+.card-clock {
+    margin-left: 40px;
+}
+
+.card-time {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #a6adb4;
+    margin-bottom: 40px;
+}
+
+.happeningNow {
+    margin-top: 58px;
+}
+
+.happeningNow-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #202124;
+    margin-bottom: 40px;
+}
+
+.happeningNow-leftBlock {
+    width: 760px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.leftBlock-relativeImg {
+    position: relative;
+}
+
+.bridgeImg {
+    border-radius: 10px;
+}
+
+.leftBlock-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.forestImg {
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.happeningNow-rightBlock {
+    width: 360px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.elephantImg,
+.parrotImg,
+.roadImg {
+    border-radius: 10px;
+}
+
+.parrotImg,
+.roadImg {
+    margin-top: 100px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #a6adb4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-logo {
+    display: inline-block;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    vertical-align: top;
+}
+
+.footer-nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 80px;
+}
+
+.footer-buttons {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #cbd0d3;
+    transition-duration: 0.1s;
+    line-height: 1.8;
+}
+
+.footer-buttons:hover {
+    color: black;
+    opacity: 1;
+}
+
+.footer-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #cbd0d3;
+    transition-duration: 0.1s;
+    margin-left: 80px;
+}
+
+.footer-soc {
+    margin-left: 80px;
+}
+
+.footer-soc a:not(:first-child) {
+    margin-left: 30px;
+}
